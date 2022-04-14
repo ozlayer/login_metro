@@ -1,0 +1,33 @@
+.container {
+    margin-top: 70px;
+    max-width: 700px;
+    background: rgb(9, 66, 106);
+}
+
+body {
+    background: rgb(224, 219, 204);
+    height: 720px;
+}
+
+.btn-guardar {
+    width: 100px;
+    padding: 15px;
+    background-color: rgb(247, 173, 82);
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(189, 194, 188);
+}
+
+.btn-guardar:hover,
+.btn-guardar:active {
+    color: rgb(231, 170, 95);
+    background-color: rgb(224, 43, 80);
+    border-color: rgb(7, 217, 147);
+}
+
+.btn-guardar:focus {
+    box-shadow: 0 0 0 3px rgba(121, 82, 179, 0.25);
+}
